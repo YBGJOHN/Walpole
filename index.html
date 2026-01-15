@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+/* Style the header */
+.header {
+  grid-area: header;
+  background-color: #042350;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  font-style:italic;
+  
+}
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header' 
+    'left middle middle middle middle right' 
+    'footer footer footer footer footer footer';
+  /* grid-column-gap: 10px; - if you want gap between the columns */
+} 
+
+.left,
+.middle,
+.right {
+  padding: 10px;
+  
+}
+
+/* Style the left column */
+.left {
+  grid-area: left;
+
+}
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+}
+
+/* Style the right column */
+.right {
+  grid-area: right;
+  padding: 20px;
+}
+
+/* Style the footer */
+.footer {
+  grid-area: footer;
+  background-color: #042350;
+  padding: 10px;
+  text-align: center;
+}
+
+.images {
+  padding: auto;
+}
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left left left left left' 
+      'middle middle middle middle middle middle' 
+      'right right right right right right' 
+      'footer footer footer footer footer footer';
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="grid-container">
+  <div class="header">
+    <h2>Technology and Digital learning</h2> 
+    <img src="images/timberwolf-with-border-6000px.png" alt="wolf"
+    width="300">
+  </div>
+  
+  <div class="left" style="background-color:#F65C02;">Walpole Public Schools<p>Departments</p><p>Technology and Digital learning </p></div> 
+  
+  <div class="middle" style="background-color:#042350;"> <p>All students in grades Kindergarten through grade 12 will have an assigned Chromebook. Students in Grades 7 through 12 will continue to use the one assigned previously, which is typically . Students in Grades K through 6 will receive one at designated distribution dates in the Fall.</p>
+
+<p>Our technology program is grounded in our foundational Digital Literacy Vision Statement:</p>
+
+<p>Through continued and evolving access to digital resources, students are empowered to personalize their learning to master essential content and 21st century skills, both in and outside the classroom. Through the transformative use of technology, Walpole Public Schools creates an interconnected educational community to actively explore and design solutions to real-world matters.</p>
+
+<p>The District Strategic Plan Mission and Vision Statements include a number of guiding beliefs that support this initiative. In addition, the District Strategic Plan Goals and Objectives include:</p>
+
+<p><ul>Provide individualized learning through flexible instructional practice that fosters growth for all students</ul></p>
+<p><ul>Utilize qualitative and quantitative data to inform instruction and improve practice</ul></p>
+<p><ul>Develop ethical students who value multiple perspectives and demonstrate responsible citizenship</ul></p>
+Through the Chromebook 1:1 Initiative, our goal has been to move students and teachers towards this vision and meet our objectives. The Chromebook program, combined with Google Workspace, gives students the technology tools necessary to communicate, collaborate, create and publish their work in a 21st century learning environment. It provides them with opportunities to show the relevance and interconnectedness of their knowledge and skills; and it allows faculty to use instructional approaches such as blended learning and project based learning to engage students, personalize learning, and extend learning experiences into the global community. The Chromebooks are one of the tools to help support critical thinking, problem solving, collaboration and research in our classrooms.
+
+<p>The district also supplies a number of other technology tools for students. There are a number of special purpose computer labs with Windows and Mac desktop computers, sets of iPads for our littlest learners, and a variety of special devices to meet accommodations described in Individualized Education Plans (IEP).</p></div>  
+  <h3></h3>
+  <div class="right" style="background-color:#F65C02;">
+    <li><a href="">Philosophy</a></li>
+<li><a href="">Digital learning vision</a></li>
+<li><a href="">Acceptable Use Policy for Students</a></li>
+
+
+
+<p>Filtering & Privacy</p>
+
+<p>Chromebook Program</p>
+<p>Chromebook Use</p>
+
+<p>Chromebook Loan Agreement Forms</p>
+
+<p>Chromebook Insurance & Repairs</p>
+
+<p>Support</p>
+<p>Departing Students</p>
+
+<p></p>Tech Support</div>
+  
+  <div class="footer">
+    <img src="images/W-logo-blue-border-6000px.png" alt="blah"
+    width="150";
+    <h3>Walpole Public Schools
+135 School Street
+Walpole, MA 02081
+Phone 508.660.7200</h3>
+
+📝 Contact us</h3>
+
+    
+    
+ 
+
+</body>
+</html>
+
+
+
+</body>
+</html>
